@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <div class="container my-4">  
+
+  <hr class="mb-5"/>  
+
+
+<div class="calculator card">
+
+  
+  <input type="text" id="afficher" class="calculator-screen z-depth-1" value="" disabled ></input>
+
+
+    <div class="calculator-keys">
+
+      <button type="button"  onclick="oncklikNumbre(1)" class="btn btn-light waves-effect">1</button>
+      <button type="button" onclick="oncklikNumbre(2)" class="btn btn-light waves-effect">2</button>
+      <button type="button" onclick="oncklikNumbre(3)"class="btn btn-light waves-effect">3</button>
+      <button type="button" onclick="oncklikNumbre(4)" class="btn btn-light waves-effect">4</button>
+      <button type="button" onclick="oncklikNumbre(5)" class="btn btn-light waves-effect">5</button>
+      <button type="button" onclick="oncklikNumbre(6)"class="btn btn-light waves-effect">6</button>
+      <button type="button" onclick="oncklikNumbre(7)"class="btn btn-light waves-effect">7</button>
+      <button type="button" onclick="oncklikNumbre(8)"class="btn btn-light waves-effect">8</button>
+      <button type="button" onclick="oncklikNumbre(9)"class="btn btn-light waves-effect">9</button>
+      <button type="button" onclick="oncklikNumbre(0)"class="btn btn-light waves-effect">0</button>
+      <button type="button" onclick="oncklikNumbre('.')"class="decimal function btn btn-secondary">.</button>
+      <button type="button" onclick="Operation('+')"class="operator btn btn-info">+</button>
+      <button type="button" onclick="Operation('/')"class="operator btn btn-info">/</button>
+      <button type="button" onclick="Operation('-')"class="operator btn btn-info">-</button>
+      <button type="button" onclick="Operation('*')"class="operator btn btn-info">*</button>
+      <button type="button" onclick="egaLe()"class="equal-sign operator btn btn-default">=</button>
+      <button type="button" onclick="Suprime()"class="all-clear function btn btn-danger btn-sm">C</button>
+
+    </div>
+  </div>
+</div>
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Your custom scripts -->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
+
